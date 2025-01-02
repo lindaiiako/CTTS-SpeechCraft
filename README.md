@@ -100,7 +100,7 @@ Please first refer to some emphasis examples provided [here](https://speechcraft
     emotion_model = "iic/emotion2vec_base_finetuned"
     ```
 
-    Prepare SECap from https://github.com/thuhcsi/SECap (for Chinese emotion captioning).
+    Prepare SECap from [here](https://github.com/thuhcsi/SECap) (for Chinese emotion captioning).
 
 2. Create conda environment
     ```
@@ -108,7 +108,7 @@ Please first refer to some emphasis examples provided [here](https://speechcraft
     mv ./AutomaticPipeline/models/SECap/model2.py $your_SECap_dir
     ```
 
-3. Download the lora ckpt from [here](https://cloud.tsinghua.edu.cn/d/548948399d7c4816b677/) for description rewriting.
+3. Download the lora ckpt from [here](https://cloud.tsinghua.edu.cn/d/548948399d7c4816b677/) as `./llama-ft/finetuned-llama`/ for description rewriting.
 
     Remember to change the path of LLM ckpt at "`base_model_name_or_path`" in `./llama-ft/finetuned-llama/adapter_config.json`.
 
