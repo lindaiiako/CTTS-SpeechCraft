@@ -81,7 +81,7 @@ Please first refer to some emphasis examples provided [here](https://speechcraft
 
 ## Annotation Pipeline
 
-### Installation
+### Step 0 : Installation
 
 1. Download models for speech style recognition.
 
@@ -113,7 +113,7 @@ Please first refer to some emphasis examples provided [here](https://speechcraft
     Remember to change the path of LLM ckpt at "`base_model_name_or_path`" in `./llama-ft/finetuned-llama/adapter_config.json`.
 
 
-### Labeling with the Automatic Annotation Pipeline
+### Step 1 : Labeling with the Automatic Annotation Pipeline
 
 1. Get the scp file with raw scores for the audio corpus.
 
@@ -127,7 +127,7 @@ Please first refer to some emphasis examples provided [here](https://speechcraft
     python Clustering.py
     ```
 
-### Rewriting with the Finetuned Llama
+### Step 2 : Rewriting with the Finetuned Llama
 ```
 cd ../llama-ft
 python llama_infer.py
