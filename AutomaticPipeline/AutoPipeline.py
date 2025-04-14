@@ -194,7 +194,7 @@ def pitch_energy_calculate(input_values):
 
 def inference_on_device(device, i, num_devices, language, basedir, scp_path):
 
-    sampling_rate = 22050
+    sampling_rate = 16000
     batch_size = 4
     gender_model_path = "alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech"
     age_model_path = "audeering/wav2vec2-large-robust-24-ft-age-gender"
