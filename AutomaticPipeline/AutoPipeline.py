@@ -16,6 +16,7 @@ from transformers import (
 from funasr import AutoModel
 from AgePreTrainModel import AgeGenderModel
 from PitchEnergy import process_audio
+from VoiceGenderClassifier import ECAPA_gender
 from g2p_en import G2p
 torch.multiprocessing.set_start_method('spawn', force=True)
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
@@ -50,7 +51,7 @@ class CustomDataset(torch.utils.data.Dataset):
         self.__preprocess__()  
     
     def __preprocess__(self):
-        hf_ds = datasets.load_from_disk(self.hf_ds_path).select(range(100))
+        hf_ds = datasets.load_from_disk(self.hf_ds_path).select(range(200))
         paths = hf_ds["out_audio_filename"]
         transcripts = hf_ds["tts_text"]
         subset_size = len(paths) // self.num_devices
@@ -145,14 +146,12 @@ def age_predict(batch, model, device):
     ages = [int(i*100) for i in preds]
     return ages
 
-def gender_predict(batch, model, device):
-    r"""Predict gender from raw audio signal."""
-    G = ['female', 'male']
-    input_values, attention_mask = batch['input_values'].to(device), batch['attention_mask'].to(device)
-    logits = model(input_values, attention_mask=attention_mask).logits
-    scores = F.softmax(logits, dim=-1)
-    pred = torch.argmax(scores, dim=1).cpu().detach().numpy()
-    genders = [G[pred[i]] for i in range(len(pred))]
+
+def gender_predict(audiopaths, model, device):
+    genders = []
+    for path in audiopaths:
+        with torch.no_grad():
+            genders.append(model.predict(path, device=device))
     return genders
 
 def emotion_predict(audiopaths, model): 
@@ -164,7 +163,6 @@ def emotion_predict(audiopaths, model):
     return emotions
 
 def pitch_energy_calculate(audio_paths):
-    r"""Predict pitch and energy from raw audio signal."""
     pitchs = []
     energys = []
     for path in audio_paths:
@@ -177,20 +175,15 @@ def inference_on_device(device, i, num_devices, hf_ds_path, scp_path):
 
     sampling_rate = 16000
     batch_size = 4
-    gender_model_path = "alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech"
+    gender_model_path = "JaesungHuh/voice-gender-classifier"
     age_model_path = "audeering/wav2vec2-large-robust-24-ft-age-gender"
     #asr_path = "openai/whisper-large-v3"
     scp_path = scp_path[:-4]+'_'+str(i)+'.scp'
 
-    # Gender Predict    
-    gender_model = AutoModelForAudioClassification.from_pretrained(
-        pretrained_model_name_or_path = gender_model_path,
-        num_labels = 2,
-        label2id = { "female": 0, "male": 1 },
-        id2label = { 0: "female", 1: "male" },
-    )
-    gender_model.to(device)
+    # Gender Predict 
+    gender_model = ECAPA_gender.from_pretrained(gender_model_path)
     gender_model.eval()
+    gender_model.to(device)
     
     # Age Predict
     w2v_processor = Wav2Vec2Processor.from_pretrained(age_model_path)
@@ -238,7 +231,7 @@ def inference_on_device(device, i, num_devices, hf_ds_path, scp_path):
             audio_features = audios['input_values']
             
             ages = age_predict(audio_features, model=age_model, device=device)
-            genders = gender_predict(audios, model=gender_model, device=device)
+            genders = gender_predict(audiopaths, model=gender_model, device=device)
             pitchs, energys = pitch_energy_calculate(audiopaths)
     
             phonemes = [g2p_model(transcripts) for i in range(len(audiopaths))]

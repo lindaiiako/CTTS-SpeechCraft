@@ -1,0 +1,802 @@
+{
+    "audio_segments_bef_persona_12-monkeys_tt0114746_TpGPSRGrL3s_8.461_9.483": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:unknown\ttranscription:He's got a history, Doctor.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_TpGPSRGrL3s_9.984_16.099": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:fearful\ttranscription:Violence, antisocial sex, repeated violations of the Permanent Emergency Code.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_TpGPSRGrL3s_19.705_22.25": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:Disregard of authority. 25 to life.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_TpGPSRGrL3s_25.596_30.226": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:unknown\ttranscription:You aren't going to hurt us, are you, Mr. Cole?",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_TpGPSRGrL3s_69.843_71.606": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:high\tspeed:normal\temotion:angry\ttranscription:We appreciate your volunteering.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_TpGPSRGrL3s_72.227_74.992": {
+        "labels": "age:Adult\tgender:female\tpitch:low\tvolume:low\tspeed:slow\temotion:angry\ttranscription:You're a very good observer, Cole.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_48.335_50.098": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:It won't help anyone. It won't change anything.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_51.88_54.704": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:slow\temotion:unknown\ttranscription:James, do you know why you're here?",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_55.706_59.772": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:disgusted\ttranscription:Because I'm a good observer and a tough mind.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_60.494_65.546": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:You don't remember assaulting a police officer, several officers.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_66.629_71.18": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:James, I mean... You've been in an institution before, haven't you?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_86.646_88.108": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:high\tspeed:fast\temotion:happy\ttranscription:What's wonderful about the air, James?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_93.758_97.364": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:Why do you think there aren't any germs in the air?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_99.648_100.71": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:This is October, right?",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_110.412_111.555": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:high\tspeed:fast\temotion:sad\ttranscription:Do you think you're living in the future?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_112.437_113.86": {
+        "labels": "age:Youth\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:1996 is the past.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_114.461_116.145": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:No, 1996 is the future.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_e4yCxKv-2qw_118.49_119.492": {
+        "labels": "age:Adult\tgender:female\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:This is 1990.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9l_U2xXb9VI_21.895_23.801": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:$5,000, my man. That enough?",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9l_U2xXb9VI_25.225_27.051": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:I'll wire a check to your account as usual.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9l_U2xXb9VI_27.031_33.26": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:$5,000. $5,000. $5,000. I'll give him the deluxe mental hospital treatment. My man.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9l_U2xXb9VI_72.538_75.242": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:What do they give you? Thorazine? Haldol? How much? How much?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9l_U2xXb9VI_75.904_77.126": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:Learn your drugs. Know your doses.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_wcztDZ13TLI_9.818_18.599": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:anymore, at least to make things anymore, it's all automated. What are we for then? We're consumers, Jim. Okay, okay, buy a lot of stuff, you're a good citizen.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_wcztDZ13TLI_18.619_21.627": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:But if you don't buy a lot of stuff, if you don't, what are you then, I ask?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_wcztDZ13TLI_133.928_142.56": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:happy\ttranscription:I am mentally divergent in that I am escaping certain unnamed realities that plague my life here.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_wcztDZ13TLI_143.519_147.256": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:angry\ttranscription:When I stop going there, I will be well.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_wcztDZ13TLI_149.265_152.078": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:unknown\ttranscription:Are you also that virgin friend?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_39.211_46.002": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:neutral\ttranscription:Five billion people died in 1996 and 1997. That's the entire population of the world.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_52.75_54.353": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:How can I save you? This already happened.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_55.355_56.678": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:sad\ttranscription:I can't save you. Nobody can.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_59.183_65.155": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription:I am simply trying to gather information to help the people in the present trace the path of the virus.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_68.997_72.825": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:unknown\ttranscription:No. 1990 is the past. This already happened.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_77.355_79.52": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:You believe 1996 is the present, then?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_79.861_81.264": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:Is that it?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_87.055_91.406": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:sad\ttranscription:What I... What I need to do is make a telephone call.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_92.629_95.196": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:I can straighten this all out if I make a telephone call.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_100.87_102.735": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:sad\ttranscription:They'll want to know that they sent me to the wrong time.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_104.268_107.198": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:I can leave a voicemail message that they monitor from the present.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_q74RKOmIjC8_110.328_112.676": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:Can I just make one telephone call, please?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_6.953_8.157": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:And all the doors are locked, too.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_34.726_37.111": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:You know what crazy is? Crazy is majority rules.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_39.497_41.541": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:Take germs, for example.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_44.007_46.031": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:In the 18th century, no such thing.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_47.013_50.341": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:Nothing. No one ever imagined such a thing. No sane person.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_52.325_54.49": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:happy\ttranscription:Long comes this doctor.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_59.646_68.522": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:Semmelweis comes along and he's trying to convince people, well other doctors mainly, that there's teeny tiny invisible things called germs that get into your body and make you sick.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_68.962_73.47": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:He's trying to get doctors to wash their hands. What is this guy? Crazy?",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_74.332_76.275": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription:Teeny tiny invisible, what do you call it?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_78.018_80.763": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:unknown\ttranscription:Mouths! Cut to the 20th century, huh?",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_85.772_90.481": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:Go in, uh, to order a burger, and this fast food joint guy drops it on the floor.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_91.062_98.147": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:Jim, he picks it up, he wipes it off, he hands it to me like it was all okay. What about the germs, I say? He says, I don't believe in germs.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_98.527_102.013": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:Germs are just a plot they made up so they can sell you disinfectants and soaps.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_102.794_105.338": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:Now, he's crazy, right? See?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_110.806_113.67": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:unknown\ttranscription:There's no right, there's no wrong, there's only popular, okay?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_120.496_127.852": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:unknown\ttranscription:Of course not. Of course not. You want to escape, right? That's very sane. That's very sane. I can help you.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_146.076_148.121": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:happy\ttranscription:Because I'd be crazy to escape.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_148.663_151.791": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:low\tspeed:normal\temotion:neutral\ttranscription:I have sent out word. I am all taken care of.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_153.996_161.335": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:I've managed to contact certain underlings, evil spirits, secretaries of secretaries, and other assorted minions who will contact my father.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_161.675_165.004": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:And when my father finds out I'm in this kind of place...",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_eb46yXP211w_165.828_179.415": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:disgusted\ttranscription:Have them transfer me to one of those classy joints, where they treat you properly, like a person, like a guest, with sheets and towels, like a big hotel with great drugs for all of us nutcase, lunatic, maniac devils.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_8.926_12.613": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:sad\ttranscription:I can't do anything about what you're going to do. I can't change anything.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_17.513_20.477": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:happy\ttranscription:Hi, ladies. So nice to see you again. Remember to watch your step on the way down.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_21.198_23.461": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:unknown\ttranscription:All right, I'm glad. Brunch? Weller?",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_24.382_29.509": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:unknown\ttranscription:I just want access to the pure virus. Virus? Yes, for the future. I need to know where it is and exactly what it is.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_37.696_43.033": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:neutral\ttranscription:We were in the day room, watching television, and you were all upset about the desecration of the planet, which I understand.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_43.234_49.113": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:But then you said to me, wouldn't it be great if there was a germ or a virus that would wipe out all of mankind, only the animals and the trees?",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_12-monkeys_tt0114746_9rDK1qdc9-Y_51.28_56.213": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:happy\ttranscription:And I told you my father was this famous urologist, and you said, hey, he can make a joke, and we can steal it.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_10.188_12.332": {
+        "labels": "age:Youth\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:unknown\ttranscription:$957, and I wore his shit in.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_12.953_14.416": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:unknown\ttranscription:You're a killer, not a bunch of hookers.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_14.696_22.33": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription:Yeah, well, I got a reputation for looking real nice with the ladies, man. Maybe when we get out, I could take you to a couple of spots. We can get you dressed up, and we can go on a little pussy hunt, huh?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_22.871_27.185": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:Hey, I don't want to hear your jive. I already got that department taken care of.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_29.31_32.078": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:You know, the generosity of women never ceases to amaze me, you know that?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_32.92_39.758": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:angry\ttranscription:Hey, don't even try this shit, man. I don't work like this. No deal. We ain't got no deal. I own your ass.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_40.143_42.608": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:ain't no goddamn way to start a partnership.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_43.831_52.729": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:angry\ttranscription:We ain't partners. We ain't brothers and we ain't friends. I'm putting you down and keeping you down until Gans is locked up or dead. And if Gans gets away, you're going to be sorry you ever met me.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_52.749_56.818": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:unknown\ttranscription:I'm already sorry.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_69.852_72.136": {
+        "labels": "age:Youth\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:happy\ttranscription:Looks like you bought it off one of the brothers.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_75.041_79.87": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:happy\ttranscription:Where we going? We gotta go see a guy named Luther. Gaines will be going to see him soon. We ain't got that much time, though.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_81.112_82.435": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:surprised\ttranscription:What gang you talking about, Jack?",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_82.575_85.32": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:Hey, I can read a police file, shithead. Quit calling me Jack.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_86.11_88.197": {
+        "labels": "age:Youth\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:angry\ttranscription:It's just an expression, all right? I don't mean nothing by it.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_88.378_90.164": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:I don't give a damn. It happens to be my name.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_90.766_93.154": {
+        "labels": "age:Youth\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:angry\ttranscription:The hell you complaining for? At least nobody calling you shithead.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_ZdN6HbD0paY_93.354_95.04": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:angry\ttranscription:I may call you worse than that.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_16.725_17.988": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:happy\ttranscription:Who the fuck I want to do that for?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_18.148_21.736": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:unknown\ttranscription:They may beat the shit out of me, but I guarantee you they'll cut your black ass right up.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_21.997_23.119": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:sad\ttranscription:So you a badass?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_24.01_26.681": {
+        "labels": "age:Youth\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:happy\ttranscription:You know, it's amazing how far a gun and a badge will take some guys.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_27.183_30.477": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:unknown\ttranscription:Bullshit. Attitude and experience is what gets you through.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_35.047_41.902": {
+        "labels": "age:Youth\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:angry\ttranscription:Telling you, man, I've been in places like this before. White cops came and fucked with me and my friends. Only thing that stopped them from kicking their ass, they had guns and badges.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_42.183_44.608": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:happy\ttranscription:Takes years of experience to handle a joint like this.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_46.652_51.503": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:angry\ttranscription:I got two problems. Number one, I ain't playing fucking games. Number two, you ain't got nothing to bet with.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_52.141_58.471": {
+        "labels": "age:Youth\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:happy\ttranscription:Look, if we go in there and get a phone number, or a GANs, a dead Indian, anything that helps us out, turn your back for a half hour and let me go get some puss.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_59.293_66.284": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:Any man that talks about women like you can't get it up in here, huh? I've been in prison for three years. My dick gets hard after wind blows.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_70.351_74.065": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:angry\ttranscription:But when you lose... You tell me the truth.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_75.387_76.65": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:Gans didn't get out for nothing.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_78.013_80.86": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:I don't know what you're talking about, man. I want to nail Gans just like you.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_83.425_89.218": {
+        "labels": "age:Youth\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription:All right, Kates, look. If I lose, I'll tell you everything you want to know.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_93.029_98.259": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:normal\tspeed:slow\temotion:happy\ttranscription:Alright, you got a deal. Hell, I'm gonna enjoy this. I'm gonna even give you my badge.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_98.279_100.564": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:happy\ttranscription:You said bullshit and experience is all it takes, right?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_48-hrs._tt0083511_7msu2ugXGW8_101.326_105.193": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:surprised\ttranscription:Right. Come on and experience some of my bullshit.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_6.86_9.686": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:That ex-ship news reporter. No body, no voice.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_20.602_23.208": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:normal\temotion:disgusted\ttranscription:You're being terribly tolerant, aren't you?",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_23.428_25.212": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:sad\ttranscription:I'm trying terribly hard.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_26.715_29.521": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:normal\temotion:angry\ttranscription:I will not be tolerated and I will not be plotted against.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_30.764_39.403": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:normal\tspeed:slow\temotion:angry\ttranscription:Such nonsense. What do you all take me for? Little Nell from the country? Be in my understudy for over a week without my knowing it. Carefully hidden, no doubt.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_39.383_40.867": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:angry\ttranscription:Now don't get carried away.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_41.007_47.764": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:slow\temotion:angry\ttranscription:Arrives here for an audition when everyone knows I will be here. And gives a performance. Out of nowhere, gives a performance.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_47.784_49.489": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:You've been all through that with Lloyd.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_56.663_58.687": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:fast\temotion:happy\ttranscription:Carefully rehearsed, I have no doubt.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_59.229_61.053": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:Full of those Bill Sampson touches.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_65.723_68.77": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription:I didn't know Eve Harrington was your understudy until half past two this afternoon.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_70.714_73.44": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:angry\ttranscription:No, I'll tell it to you. For the last time, I'll tell it to you.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_74.635_79.283": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:angry\ttranscription:because you've got to stop hurting yourself and me and the two of us by these paranoiac tantrums.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_79.303_80.404": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:fast\temotion:surprised\ttranscription:Oh, that word again.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_83.189_87.456": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription:I love you. I love you. You're a beautiful and an intelligent woman.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_87.476_88.537": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:A body with a voice.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_88.638_91.362": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:happy\ttranscription:A beautiful and an intelligent woman and a great actress.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_93.687_97.755": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:happy\ttranscription:A great actress at the peak of her career. You have every reason for happiness.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_98.917_108.395": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:low\tspeed:slow\temotion:unknown\ttranscription:Every reason! But due to some strange, uncontrollable, unconscious drive, you permit the slightest action of a kid like- A kid! Of a kid like Eve to turn you into an hysterical, screaming Harpy.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_eWL0obbYYOE_108.675_110.278": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:high\tspeed:fast\temotion:angry\ttranscription:Now once and for all, stop it!",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_LPPJdOGshUM_30.828_34.674": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:That's in your seat. It's going to be a bumping night.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_LPPJdOGshUM_70.409_75.03": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription:This must be, at long last, our formal introduction. Until now, we've only met in passing.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_LPPJdOGshUM_78.23_82.28": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:high\tspeed:normal\temotion:happy\ttranscription:Eve, this is an old friend of Mr. DeWitt's mother, Miss Caswell of Miss Harrington.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_LPPJdOGshUM_90.579_96.078": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:You've heard of her great interest in the theatre. Then you two must have a long talk.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_LPPJdOGshUM_106.654_111.561": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription:You see that man? That's Max Fabian, the producer. Now go and do yourself some good.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_all-about-eve_tt0042192_LPPJdOGshUM_112.334_114.761": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:fast\temotion:sad\ttranscription:Why do they always look like unhappy rabbits?",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_pHvNvYijtBU_25.679_37.48": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:On the radio and in the newspapers, we are told that the Los Angeles Police Department is doing its very best to reunite mother and child, and I'm sure that that is true.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_pHvNvYijtBU_39.417_51.672": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:angry\ttranscription:But given its status as the most violent, corrupt, and incompetent police department this side of the Rocky Mountains, I am not sure it's saying a great deal.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_pHvNvYijtBU_72.037_78.815": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:day the needs of honest citizens are put second to greed and personal gain.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_pHvNvYijtBU_78.835_85.793": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:happy\ttranscription:Every day this city sinks deeper into a cesspool",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_pHvNvYijtBU_85.773_90.346": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:angry\ttranscription:of fear, intimidation, and corruption.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_pHvNvYijtBU_90.827_105.047": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription:Once the city of angels, Los Angeles has become a place where our protectors have become our brutalizers, when to me the law is to be above the",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_23.909_25.592": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:angry\ttranscription:You ought to make the following entry.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_26.294_33.327": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:Defendant states she's been deceived by police and others and that we have given her a boy and tried to make her think it is her son when she says it is not.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_47.585_56.44": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription:Mrs. Collins has been known to us since about March 10th, 1928, when she reported her nine-year-old son, Walter, missing. The boy was gone until August 1928.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_57.442_63.352": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:Since his return, she has complained that he is still missing and has made repeated requests that he be found.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_63.873_69.035": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription:She suffers from paranoia, delusions of persecution, dislocation from reality.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_69.922_72.259": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription:She may be a threat to herself or others.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_edX09NFZ3oc_72.914_78.404": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:We recommend that she be conveyed to the psychopathic ward until her senses can be restrained.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_14.625_15.728": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:Let's start at the beginning then.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_31.374_33.978": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:normal\temotion:fearful\ttranscription:Look, I didn't mean to, I swear. He made me help him.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_37.184_41.662": {
+        "labels": "age:Youth\tgender:female\tpitch:high\tvolume:high\tspeed:slow\temotion:fearful\ttranscription:So you gotta help me, please. I'm so scared. I want to go to hell for killing kids.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_47.432_48.835": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:fast\temotion:sad\ttranscription:I don't know. I never knew their names.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_65.011_66.454": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:high\tspeed:normal\temotion:surprised\ttranscription:Oh, screw it, I swear!",
+        "text_style_target": "The speaker speaks in high pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_74.932_76.495": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:low\tspeed:normal\temotion:sad\ttranscription:I stopped counting after a while.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_80.997_88.349": {
+        "labels": "age:Youth\tgender:female\tpitch:high\tvolume:low\tspeed:slow\temotion:sad\ttranscription:Gordon said maybe one or two may have escaped.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_vn6qlQGDOIo_104.416_106.043": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:normal\tspeed:fast\temotion:sad\ttranscription:Most times we just have one or two.",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_2r8yw_fjoHA_25.871_31.459": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:Three boys made a run for it that night, Detective, and if one got out, then maybe either or both of the others did too.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_2r8yw_fjoHA_32.681_35.325": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription:Maybe Walter's out there having the same fears that he did.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_2r8yw_fjoHA_36.326_40.112": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:normal\temotion:sad\ttranscription:Afraid to come home and identify himself, or afraid he'll get into trouble.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_2r8yw_fjoHA_42.1_46.619": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:slow\temotion:sad\ttranscription:But either way, it gives me something I didn't have before tonight.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_14.138_16.943": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:Well, I'm here now. I'll put all that to rights.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_23.048_24.632": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:surprised\ttranscription:Ah, there he is.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_26.456_30.206": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:unknown\ttranscription:Handsome young man. He has your eyes, doesn't he?",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_30.847_32.511": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:And a little bit of the nose.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_33.374_39.589": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:happy\ttranscription:Very fit, in spite of all his travails. You're a very resilient boy you've got here, Mrs. Collins.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_43.934_51.255": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription:Captain Jones said that the boy had been through some severe physical changes and asked me to drop in on him to reassure you in your time of motherly concern.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_65.187_67.312": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:Captain Jones said something about a change in height.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_88.351_94.669": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:We've known for some time that trauma can affect the growth of children, given the stress of the past five months.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_95.341_96.824": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:His spine may have actually shrunk.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_97.405_99.891": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:It's uncommon, but it's within the realm of possibility.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_108.249_114.362": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription:Very likely his abductor thought it appropriate. After all, circumcision is hygienically sound.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_115.928_121.9": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:happy\ttranscription:Must have been quite traumatic at the time. No wonder he's submerged the memory.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_126.529_130.917": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:happy\ttranscription:You see, there's a perfectly sound medical explanation for all this.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_132.01_138.266": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription:But it's right for you to raise the questions. You need to be apprised of all changes the lad went through during his absence.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_145.966_148.011": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription:Which means you're in no position to be objective.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_149.138_157.516": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:You are looking through the prism of extreme emotion at a boy who has changed from what you remember. He isn't the same boy that left here.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_158.298_161.265": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:Just as a boy that goes off to war and then returns is not the same anymore.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_162.487_169.122": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:surprised\ttranscription:A mother's heart, driven by intuition and emotion, sees these changes and rebels.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_170.215_172.038": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:surprised\ttranscription:insists that this isn't your son.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_changeling_tt0824747_oZePQEUplJs_174.222_175.444": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:disgusted\ttranscription:Doesn't change the facts.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_16.547_18.09": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:happy\ttranscription:Thanks. That's nice to hear.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_18.374_20.997": {
+        "labels": "age:Adult\tgender:female\tpitch:low\tvolume:high\tspeed:normal\temotion:happy\ttranscription:We all just love the Malkovich scripts.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_22.159_26.084": {
+        "labels": "age:Adult\tgender:female\tpitch:low\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:Such a unique voice. Boy, I'd love to find a portal into your brain.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_35.837_37.159": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:happy\ttranscription:First, I think it's a great book.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_92.95_100.035": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:unknown\ttranscription:Okay, but I'm saying it's like, I don't want to cram in sex or guns or car chases.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_100.015_117.67": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:happy\ttranscription:You are characters you know learning profound life lessons or growing or coming to like each other or overcoming obstacles to succeed in the end it's the book isn't like that and and life isn't like that you know it just isn't and.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_7_HpQA3rLWw_121.514_123.525": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:I feel very strongly about this.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_10.617_12.581": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:sad\ttranscription:Those fossils were silver and old mirrors.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_14.266_18.175": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:My mom and I had the largest collection of 19th century Dutch mirrors on the planet.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_19.437_23.845": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription:Perhaps you read about us, Mirror World, October 88. I got a copy here somewhere.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_32.781_42.155": {
+        "labels": "age:Adult\tgender:female\tpitch:high\tvolume:normal\tspeed:slow\temotion:sad\ttranscription:I mean, didn't you ever miss turtles? the only thing that made your 10-year-old life worth living?",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_42.175_44.079": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:unknown\ttranscription:Look, I'll tell you a story, all right?",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_45.843_50.272": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:unknown\ttranscription:I once fell deeply, you know, profoundly in love with tropical fish.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_51.375_53.439": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:angry\ttranscription:Had 60 goddamn fish tanks in my house.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_54.0_62.926": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription:I skin-dived to find just the right ones. Anisotromus virginicus, holocanthus ciliaris, chaetodon capostratus, you name it.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_64.63_66.374": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:high\tspeed:fast\temotion:neutral\ttranscription:In one day I say, fuck fish.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_67.878_73.592": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:angry\ttranscription:I renounce fish. I vow never to set foot in that ocean again. That's how much fuck fish.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_75.8_84.275": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription:I was 17 years ago, and I have never since stuck so much as a toe in that ocean. And I love the ocean.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_84.916_88.662": {
+        "labels": "age:Adult\tgender:male\tpitch:high\tvolume:low\tspeed:normal\temotion:unknown\ttranscription:Done with fish.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_91.007_94.753": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription:If you'd really loved something, wouldn't a little bit of it linger?",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_95.408_99.57": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:slow\temotion:unknown\ttranscription:Evidently, La Roche's finishes were downright in absolute. He just moved on.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_mdYIqSZblv0_100.495_102.988": {
+        "labels": "age:Adult\tgender:female\tpitch:normal\tvolume:low\tspeed:normal\temotion:sad\ttranscription:I sometimes wished I could do the same.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_ap9g2vR32Vg_6.579_8.102": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription:You know, I'm just trying to do something.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_ap9g2vR32Vg_14.057_15.32": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:happy\ttranscription:Hey, thanks a lot, buddy. Cool.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_ap9g2vR32Vg_16.362_25.629": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription:Okay, there's a serial killer, right? Well, no, wait, and he's being hunted by a cop and he's taunting the cop, right? Sending clues who his next victim is.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_ap9g2vR32Vg_26.05_34.952": {
+        "labels": "age:Adult\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:sad\ttranscription:He's already holding her hostage in his creepy basement. So the cop gets obsessed with figuring out her identity and in the process, falls in love with her, even though he's never even met her.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "audio_segments_bef_persona_adaptation_tt0268126_ap9g2vR32Vg_35.393_39.488": {
+        "labels": "age:Adult\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:happy\ttranscription:She becomes like the unattainable, like the Holy Grail.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    }
+}

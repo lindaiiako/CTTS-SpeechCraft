@@ -25,7 +25,7 @@ def replace_age_with_text(row):
         return "Child"
     elif age < 24:
         return "Youth"
-    elif age < 65:
+    elif age < 70:
         return "Adult"
     else:
         return "Elderly"

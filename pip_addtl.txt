@@ -5,3 +5,5 @@ transformers==4.48.3
 pip install --no-cache-dir flash-attn 
 
 pip install pyworld
+
+huggingface_hub
