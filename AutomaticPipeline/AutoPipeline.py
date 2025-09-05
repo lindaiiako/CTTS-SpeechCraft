@@ -174,7 +174,7 @@ def gender_predict(batch, model, device):
 
 # def emotion_predict(batch, model, device, feature_extractor):
 def emotion_predict(audiopaths, model): 
-    emotionlabels = ['angry', 'disgusted', 'fearful', 'happy', 'neutral', 'neutral', 'sad', 'surprised', 'neutral']
+    emotionlabels = ['angry', 'disgusted', 'fearful', 'happy', 'neutral', 'other', 'sad', 'surprised', 'unknown']
     results = model.generate(audiopaths, granularity="utterance", extract_embedding=False)
     scores = [result['scores'] for result in results]
     emotion_indexs = [score.index(max(score)) for score in scores]
@@ -192,14 +192,13 @@ def pitch_energy_calculate(input_values):
         energys.append(mean_energy)
     return pitchs, energys
 
-def inference_on_device(device, i, num_devices, language, basedir, scp_path):
+def inference_on_device(device, i, num_devices, basedir, scp_path):
 
     sampling_rate = 16000
     batch_size = 4
     gender_model_path = "alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech"
     age_model_path = "audeering/wav2vec2-large-robust-24-ft-age-gender"
-    asr_path = "openai/whisper-medium"
-    # asr_path = "openai/whisper-large-v3"
+    asr_path = "openai/whisper-large-v3"
     scp_path = scp_path[:-4]+'_'+str(i)+'.scp'
 
     # Gender Predict    
@@ -218,17 +217,7 @@ def inference_on_device(device, i, num_devices, language, basedir, scp_path):
     age_model.to(device)
     
     #Emotion Predict
-    if language == 'english':
-        emotion_model = AutoModel(model="./models/emotion2vec_base_finetuned", model_revision="v2.0.4")
-    else:
-        emotion_model= MotionAudio()
-        llama_ckpt = "../SECap/weights/models--minlik--chinese-llama-7b-merged/snapshots/1ca4d87576f1fef4d44a949fb65bbe6b96675872"
-        llama_tokenizer = LlamaTokenizer.from_pretrained(llama_ckpt)
-        ckpt_path="../SECap/model.ckpt"
-        torch.cuda.empty_cache()
-        state_dict = torch.load(ckpt_path, map_location=torch.device('cpu'))
-        emotion_model.load_state_dict(state_dict, strict=False)
-        emotion_model.to(device)
+    emotion_model = AutoModel(model="iic/emotion2vec_plus_large", hub="hf")
 
     g2p_model = G2p()
     
@@ -267,20 +256,15 @@ def inference_on_device(device, i, num_devices, language, basedir, scp_path):
         for s, load_data in enumerate(tqdm(test_dataloader)):
             audios, audiopaths, durations = to_device(load_data, device)
             audio_features = audios['input_values']
-            transcripts = [asr_pipe(audio_features.numpy()[i], return_timestamps=False, generate_kwargs={"language": language})["text"] for i in range(len(audiopaths))]
+            transcripts = [asr_pipe(audio_features.numpy()[i], return_timestamps=False, generate_kwargs={"language": "english"})["text"] for i in range(len(audiopaths))]
             
             ages = age_predict(audio_features, model=age_model, device=device)
             genders = gender_predict(audios, model=gender_model, device=device)
             pitchs, energys = pitch_energy_calculate(audio_features)
     
-            if language == 'english':
-                phonemes = [g2p_model(transcripts) for i in range(len(audiopaths))]
-                speeds = [durations[i] / len(phonemes[i] ) for i in range(len(audiopaths))]
-                emotions = emotion_predict(audiopaths, model=emotion_model)
-            else:
-                speeds = [durations[i] / len(transcripts[i] ) for i in range(len(audiopaths))]
-                prompts = emotion_model.inference(audio_features.to(device))
-                emotions = llama_tokenizer.batch_decode(prompts,skip_special_tokens=True)
+            phonemes = [g2p_model(transcripts) for i in range(len(audiopaths))]
+            speeds = [durations[i] / len(phonemes[i] ) for i in range(len(audiopaths))]
+            emotions = emotion_predict(audiopaths, model=emotion_model)
             
             with open(scp_path, 'a', encoding='utf-8') as file:
                for i in range(len(audiopaths)):
@@ -288,7 +272,6 @@ def inference_on_device(device, i, num_devices, language, basedir, scp_path):
 
 def main(args):
 
-    language = args.language
     basedir = args.basedir
     devices = list(map(int, args.devices.split(',')))
     num_devices = len(devices)
@@ -298,7 +281,7 @@ def main(args):
     for i in range(num_devices):
         device_num = devices[i]
         device = torch.device(f'cuda:{device_num}')
-        p = torch.multiprocessing.Process(target=inference_on_device, args=(device, i, num_devices, language, basedir, scp_path))
+        p = torch.multiprocessing.Process(target=inference_on_device, args=(device, i, num_devices, basedir, scp_path))
         p.start()
         processes.append(p)
     
@@ -309,7 +292,6 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--language', type=str, default = 'chinese')
     parser.add_argument('--devices', type=str, default = '0')
     parser.add_argument('--basedir', type=str, default = '../FastSpeech2/raw_data/AISHELL3/SSB0005')
     parser.add_argument('--scp_path', type=str, default = './outputs/labels_AISHELL.scp')
