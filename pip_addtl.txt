@@ -3,3 +3,5 @@ pip install flash-attn==2.3.6 jupyter ipywidgets
 
 transformers==4.48.3
 pip install --no-cache-dir flash-attn 
+
+pip install pyworld

@@ -1,0 +1,882 @@
+{
+    "LJSpeech_LJ010-0227": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:sad\ttranscription: He went from Newgate first to Bethlehem, from which he was removed to Broadmoor.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ050-0106": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: to devise a practical system which has any reasonable possibility of revealing",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ043-0140": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: He also studied Dallas bus schedules to prepare for his later use of",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ018-0032": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:sad\ttranscription: There was no mystery about his departure. He had gone to Canada by the Victoria",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ012-0117": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: By and by the occupant of the room noticed something glittering in the center of the fire.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ038-0057": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: Deputy Sheriff Walther's brought a shotgun into the theater, but laid it on some",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ017-0158": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:happy\ttranscription: She had a little fortune of her own, some 1,700 pounds",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ026-0094": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: This however is probably not a source of vital energy, but only contributes to the",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ045-0152": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:happy\ttranscription: The events of that evening can best be appreciated through Marina Oswald's testimony.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ019-0264": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: and it was decidedly of opinion that in all short sentences the hard labor",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ040-0047": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: That associate did not think that Oswald was a communist.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ012-0015": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Weedon and LaCassar to 12 and 6 months respectively in cold baths.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ019-0097": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:sad\ttranscription: The want of uniformity in prison discipline became air long and acknowledged evil.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ039-0093": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: at a distance of 265.3 feet was, quote,",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ018-0028": {
+        "labels": "age:Elderly\tgender:female\tpitch:high\tvolume:normal\tspeed:normal\temotion:sad\ttranscription: who had been a lodger of his. Muehler had given the cabman's little daughter",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ028-0287": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:angry\ttranscription: but found none by which he could hope to prevail unless he maimed himself.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ024-0117": {
+        "labels": "age:Elderly\tgender:female\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: You will find that many of those who pretend to support you will sabotage your plans.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ029-0172": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: The two Dallas newspapers provided their readers with a steady stream of information and",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ024-0044": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:angry\ttranscription: that I will appoint justices who will act as justices and not as",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ045-0246": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:sad\ttranscription: He sought for himself a place in history, a role as the great",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ042-0191": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: While, quote, resourcefulness and patient working towards the aforesaid goal",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ050-0099": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: It is apparent that a good deal of further consideration and experimentation",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ017-0101": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: That day, Palmer had bought more strychnia and had called in a fresh doctor.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ016-0388": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:happy\ttranscription: A few go further and are almost gluttonous.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ007-0129": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:angry\ttranscription: the sane and the insane, the young and the old, the trivial offender and the",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ014-0195": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: Two of them supported Cope, who was still alive, although insensible, and Marley",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ027-0056": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:happy\ttranscription: The relation of skeleton and muscle in arthropods is exactly the reverse.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ030-0227": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Special Agent George W. Hickey Jr. in the rear seat of the Presidential",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ047-0210": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: I think all of those, if we had them all together...",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ048-0228": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: and others who were present say that no agent was inebriated or acted improperly.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ009-0104": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: The women set up a yell, which is mixed with a rustling noise, occasioned by the",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ017-0085": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: Palmer's plan was to administer poison in quantities insufficient to",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ018-0275": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: On Tarpey's defense, it was stated that the idea of the theft had been suggested",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ027-0064": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: All vertebrates and none other have two cavities.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ036-0084": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: Craig also claimed that when Fritz pointed out to Oswald that Craig had identified",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ040-0211": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: This would make him approximately ten, well almost eleven years old.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ032-0241": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:happy\ttranscription: Ten days prior to the Walker attempt, Oswald had undoubtedly received the rifle.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ002-0158": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: Other cases are recorded elsewhere, as at the Gilsburg Street Comptor, where",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ050-0077": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: and in taking preventive steps.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ032-0236": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: By checking the actual mailing dates of these issues and the time it usually takes",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ026-0102": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:happy\ttranscription: but root pressure due to osmosis, capillary action and evaporation.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ025-0057": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: such as the charai, are in constant and regular motion, was made out",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ018-0270": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: The assistant called with the jewels on approbation at a house specially hired for",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ013-0021": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:sad\ttranscription: The larboard pump was suffered to remain choked up and the longboat was",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ042-0050": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:sad\ttranscription: I have been a pro-communist for years and yet I have never met a communist.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ006-0075": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:happy\ttranscription: He saw certain rooms fill up, and yet took no steps to open others that were locked",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ048-0187": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: In addition, Secret Service agents riding in the motorcade were trained to",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ022-0186": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:happy\ttranscription: Twenty years of experience with this system have justified the efforts made to",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ013-0078": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: Barbara was subsequently pardoned, but was not replaced on the roles as an attorney.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ006-0015": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: one which required discretion, judgment and knowledge of law, with sufficient",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ048-0061": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: Under proper procedures, knowledge of the pending Presidential visit might have prompted",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ015-0190": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:sad\ttranscription: that of dishonest rogues who assume piety and philanthropy as a cloak for the world.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ003-0115": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: The judge sat in proper form. He was punctiliously styled, my",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ045-0244": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:angry\ttranscription: Long before the assassination, he expressed his hatred for American society.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ004-0051": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:happy\ttranscription: When in Belgium he had examined with great satisfaction the admirable manner",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ011-0265": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:sad\ttranscription: This Mr. Canning had left his widow a life interest in two thousand pounds.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ028-0087": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: Such was the appearance of the builder of the walls of Babylon.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ028-0178": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:happy\ttranscription: The walls of Babylon were so long and wide and high that all who",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ011-0113": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:sad\ttranscription: He met his death with unshaken firmness, only in treating that a certain blue",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ039-0162": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:sad\ttranscription: In an effort to test the rifle under conditions which simulated those which prevailed during",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ045-0066": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:sad\ttranscription: Oswald struck his wife on occasion.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ028-0277": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:surprised\ttranscription: One of his Sumter mules gave birth to a foal.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ048-0197": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: I then told the officers that their primary duty was traffic and crowd control and that",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ019-0170": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: More officers were appointed, as the time of so many of those already on the staff",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ041-0092": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: and quote, individual that you would brainwash and quite easy, but I think",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ039-0027": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:happy\ttranscription: and switch with Azure.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ030-0077": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: Each agent carried a .38 caliber pistol and a shotgun and",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ038-0112": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: As previously indicated, Marina Oswald testified that she took the",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ017-0119": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:low\tspeed:fast\temotion:happy\ttranscription: All the circumstances were so suspicious that he could not escape the criminal charge.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ007-0242": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: No complete and permanent improvement was indeed possible while Newgate remained unchanged.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ020-0046": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:happy\ttranscription: Close the dough over it, dust your hands and kneading board with flour,",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ018-0001": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: The Chronicles of Newgate, Volume 2, by Arthur Griffiths. Section 21.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ026-0098": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: The circulatory system distributes these foods in animals,",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ021-0152": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: and to experiment for a reasonable time with measures suitable to",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ047-0223": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: I don't recall the exact date, it was about a week prior.\"",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ007-0040": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:happy\ttranscription: In a second room were fourteen more who had every hope of a reprieve.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ050-0103": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:sad\ttranscription: were all men who acted alone in their criminal acts against our leaders.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ037-0016": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Scoggins hurriedly left his seat and hid behind the cab, as the man came back to",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ028-0336": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:sad\ttranscription: Darius now, still keeping to the plan agreed upon.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ004-0233": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: Under the new rule, visitors were not allowed to pass into the interior of the prison,",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ024-0127": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:angry\ttranscription: You who know me can have no fear that I would tolerate the destruction",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ004-0189": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:happy\ttranscription: The great principles of classification, cleanliness and employment were closely observed.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ005-0045": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: Nor did it confine itself to mere verbal recommendations.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ005-0158": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:happy\ttranscription: Bedding and clothing was still denied, but only in a few jails.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ011-0018": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: The crime, long carried on without detection, was first discovered in 1820.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ017-0022": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: was that of Eliza Fenning, who was convicted of an attempt to poison a whole family.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ030-0136": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:normal\temotion:sad\ttranscription: The President replied, that is very obvious.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ039-0078": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: The effect of a four-power telescopic sight on the difficulty of these shots",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ048-0254": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: advised in the course of the Secret Service investigation of these events that each agent",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ049-0083": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:angry\ttranscription: It has long been a federal crime to conspire to injure any federal officer on account of",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ006-0043": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: The disgraceful overcrowding had been partially ended, but the same evils of",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ025-0109": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: has been as completely invalidated as the third and second.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ044-0163": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: Marina Oswald testified that her husband engaged in fair play for Cuba.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ003-0037": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: A site was purchased between Red Lion and White Cross streets and a new",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ013-0117": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:happy\ttranscription: and with another carry off the plate-chest in broad daylight and as a matter of business.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ027-0096": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: as indeed she must be according to the derivation theory.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ021-0035": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription: saved debtors and creditors alike in many other fields of enterprise.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ049-0159": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: the Secret Service, then the only federal investigative agency, assumed",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ039-0100": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription: During the first week of an intensive eight-week training period, he received and",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ019-0302": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: In 1862, there were in all 193 jails.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ030-0229": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: At this point, the cars were speeding through the underpass and had left the scene of the",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ005-0151": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: In others, women were very properly exempted from it, and also from all severe",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ015-0115": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:sad\ttranscription: Little more remains to be said about Robson. He appears to have accepted his position.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ010-0279": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: I shall mention briefly one more case, in which, however, there was no murderous",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ044-0119": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: into which Oswald, in his own words, had quote, thrown himself. He sought it",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ049-0115": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: of the person who is actually in the exercise of the executive power or",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ004-0139": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:happy\ttranscription: In the morning, the stench and heat were so oppressive that he and everyone else",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ007-0223": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: The prison officials appear to be on the side of the inspectors, to the great dissatisfaction",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ032-0070": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: Ordinarily, Inspector Holmes testified, identification is not requested because",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ015-0294": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: He forgot to add that it was to be placed to Ralph's credit, and when he called",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ014-0083": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: which, having possessed herself of the murdered man's keys, she rifled from",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ040-0195": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: It appears that he did not want to do any of the things which the authorities suggest",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ030-0028": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: and the Vice President and Mrs. Johnson were in the receiving line to greet President",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ009-0145": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: and he seemed to suffer great inward agitation when the ordinary, particularly",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ031-0117": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: assisted by doctors William Osborne and John Parker.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ004-0115": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:happy\ttranscription: Infirmaries separating the sexes were also to be provided. A chapel too.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ039-0200": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: And one of these agents, Robert A. Frazier,",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ028-0481": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:happy\ttranscription: Nabo-Polisar, the father, my begetter, built Imgur-Bel.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ003-0245": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:disgusted\ttranscription: preparatory to their appearance in the Old Bailey. Irons were seldom removed.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ017-0261": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: Seven were found guilty of murder on the high seas and one, Carlos, a criminal.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ007-0137": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: More attention to ventilation, which was altogether neglected and inadequate, would",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ041-0017": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: Wobel also recalled that Oswald once outlined a plan to cut the glass in the",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ043-0061": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: At the time of his defection, when he evidenced no interest in his father and",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ033-0097": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: Frazier parked the car in the company parking lot about two blocks north of the depository",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ019-0234": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:sad\ttranscription: The old buildings were entirely disused, and the whole of the inmates of Newgate were",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ016-0296": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: The actual execution made some impression.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ023-0072": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: Congress passed a statute which, in 1803, the courts",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ050-0100": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: The Commission recognizes that no set of meaningful criteria will yield",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ028-0113": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: With mortar and bricks, he built two moat walls about the city.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ013-0121": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:sad\ttranscription: Howe and his accomplice were arrested. The former was found guilty and sentenced",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ014-0273": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: The detection of these frauds came while he was still prominently before the world as",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ027-0136": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Illustrations quoted from the works of Romains and Locante will make this principle",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ003-0067": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: in the then existing state of the law,",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ039-0220": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: and that one would not have to be an expert marksman to have accomplished the assassination.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ018-0029": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: A photograph of Mueller shown the jeweler was identified as the likeness of the jewel.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ001-0080": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: He seems to have taken the letter of the Elseviers of the 17th century for his mom.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ028-0454": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: But both sections originally reached the river.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ037-0244": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: Westbrook identified Commission Exhibit 162 as the light-colored",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ008-0174": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:sad\ttranscription: One cartload of spectators having broken down, some of its occupants fell",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ009-0302": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:sad\ttranscription: Another man was hired, himself a convict, whose fees for self and wife were",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ002-0182": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: the fleet and the Marshall Sea prisons especially devoted to them.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ048-0023": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: and he had told us during one of the interviews that he would probably take his wife back to",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ019-0257": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:low\tspeed:slow\temotion:sad\ttranscription: Here, the tread wheel was in use. There, cellular cranks.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ040-0046": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: which one associate described as, quote, irrevocable, end quote.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ006-0295": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: The governor was also personally responsible for gross contravention of this rule of",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ028-0252": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: Only the king's son, Belshazzar, was killed.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ035-0002": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: Chapter 4 The Assassin Part 4 Oswald's Actions",
+        "text_style_target": "The speaker speaks in low pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ009-0189": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: Persons were still living in 1855 who had witnessed dissections at Hicks Hall.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ011-0032": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: declared that they had hitherto formed a high opinion of his honor, integrity, and",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ042-0155": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: It appears to be the work of a fairly well-organized person.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ004-0039": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:sad\ttranscription: They were hopeless of any general reform by the action of the executive alone.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ025-0157": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: under these circumstances, unnatural as they are, with proper management",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ030-0121": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:happy\ttranscription: Several times, Special Agent John D. Reddy came forward from the right front",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ010-0135": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:low\tspeed:fast\temotion:happy\ttranscription: yelled out three cheers to the populace whom he faced.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ050-0118": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: Since these agencies are already obliged constantly to evaluate the activities",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ040-0175": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: through which they could not reach him, but that he preferred the veil to remain intact.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ013-0042": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: the foundations of which had been laid by buying old ships on purpose to cast the more",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ014-0076": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:happy\ttranscription: He was seen afterwards smoking and talking with his hosts in their back parlor.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ008-0097": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:sad\ttranscription: No sooner was the job finished than half a dozen competitors appeared.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ043-0166": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Possibly he might have wanted to be caught and wanted his involvement made clear",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ045-0127": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: He absolved the Soviet embassy in Mexico City of any blame for his difficulties.",
+        "text_style_target": "The speaker speaks in high pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ027-0117": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:happy\ttranscription: Now, here again the former theory appears to be triumphant over the latter.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ035-0076": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:happy\ttranscription: Special Agent John Howlett of the Secret Service carried a rifle from the south",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ005-0101": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:sad\ttranscription: Quince it deduced the practice and condition of every prison that replied.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ028-0302": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:happy\ttranscription: I will desert to the enemy as I am, and when I get into their city,",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ036-0196": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: Tippett patrolled District 78 in the Oak Cliff area of Dixie.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ028-0191": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:happy\ttranscription: The old enemies of Babylon rejoiced.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ038-0214": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: and the other paragraphs instructed her on the disposal of Oswald's personal effects",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ003-0304": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: with the penalty of forfeiting the day's allowance of food, an increase of which the committee",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ019-0009": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: or to insist upon the construction of prisons on the most approved plan.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ022-0192": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: They contemplate the enrichment of our national life.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ007-0026": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:sad\ttranscription: And with all this, the most dreadful oaths, the worst language, too bad to be repeated.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ035-0158": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: A blue jacket, later identified by Marina Oswald as her husband's, was",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ033-0014": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:sad\ttranscription: Lee Harvey Oswald lived in a rooming house in Dallas, while his wife and children lived",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ018-0369": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: the mysterious Bravo case, that of Dr. Lamson, and that of",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ017-0028": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: that she had had a quarrel with her mistress, and that the latter, with all others,",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ004-0109": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: according to their categories or crimes.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ011-0239": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Where robbery with violence was intended, the perpetrators had now to adopt various",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ049-0034": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:normal\tspeed:normal\temotion:surprised\ttranscription: could have reached the President in time to protect him from the second and fatal shot",
+        "text_style_target": "The speaker speaks in high pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ016-0389": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: Giovanni Lanni, the Italian boy who murdered a French woman in the hay market.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ037-0018": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:sad\ttranscription: Skaggins saw him and heard him mutter either, Poor damn cop or...",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ041-0163": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: Out of a combination of Oswald's known Marxist sympathies and George Orwell's",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ017-0178": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:surprised\ttranscription: It appeared that several persons with whom she was intimate had succumbed suddenly.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ048-0006": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: or to the Vice President.\"",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ002-0184": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: the latter two being also a prison for felons and vagrants arrested within certain",
+        "text_style_target": "The speaker speaks in low pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ012-0143": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: Money Moses had received the stolen gold dust from Moss's father-in-law, Davis.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ023-0012": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: But when almost two years later it came before the Supreme",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ036-0068": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:sad\ttranscription: Both buses stopped within one block of the depository building.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ046-0158": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: At the time of the assassination, the active PRS general files contained",
+        "text_style_target": "The speaker speaks in high pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ011-0287": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: but at length managed to wriggle out of the chain which confined his body and",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ016-0399": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: Wainwright was allowed a cigar the night before execution, which he smoked in the prison yard.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ006-0012": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: but he would not arm them with any authority lest their cooperation might be offensive.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ005-0102": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: Upon these and the private visitations made by various members, the Society",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ001-0169": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:fast\temotion:neutral\ttranscription: The paper used for printing the small, highly ornamented French service books.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and fast speed."
+    },
+    "LJSpeech_LJ011-0271": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: Mr. G went in the coach sent for him and alighted at 27 York Street,",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ014-0057": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:fast\temotion:neutral\ttranscription: London did not escape the contagion and, prominent among the detestable crimes of",
+        "text_style_target": "The speaker speaks in low pitch, high volume and fast speed."
+    },
+    "LJSpeech_LJ008-0191": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:slow\temotion:disgusted\ttranscription: At Courvoisier's execution in 1840, it was the same, or worse.",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ007-0120": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:sad\ttranscription: some to the infirmary, many more to the governor's house.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ012-0268": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: Suspicion grew almost to certainty as the evidence was unfolded.",
+        "text_style_target": "The speaker speaks in high pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ015-0298": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:happy\ttranscription: But while Hardwick was in communication with Sawward, the bank was in communication with",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ030-0213": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:neutral\ttranscription: Hill heard a second shot, approximately five seconds after the first, which removed",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ009-0121": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:happy\ttranscription: for all thy goodness and loving kindness to us and to all men.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ037-0084": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:neutral\ttranscription: Barbara Jeanette Davis testified that no one had shown her a picture of Oswald before.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ009-0219": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:happy\ttranscription: A clause was inserted to the effect that",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ040-0143": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: Contrary to reports that appeared after the assassination, the psychiatric examiner",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ006-0048": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: To these were still added an average of about 50, expecting the last penalty.",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ033-0006": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: In this connection, the Commission considered one",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ044-0207": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:high\tspeed:normal\temotion:neutral\ttranscription: the economic embargo against that country, and the general policy of the United States.",
+        "text_style_target": "The speaker speaks in low pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ032-0260": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:normal\tspeed:normal\temotion:neutral\ttranscription: He thought it contained tent poles or possibly other camping equipment, such as",
+        "text_style_target": "The speaker speaks in low pitch, normal volume and normal speed."
+    },
+    "LJSpeech_LJ017-0030": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:normal\temotion:happy\ttranscription: When the spread of scientific knowledge places nefarious means at the disposal of",
+        "text_style_target": "The speaker speaks in high pitch, high volume and normal speed."
+    },
+    "LJSpeech_LJ005-0084": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:normal\temotion:neutral\ttranscription: so as to prevent them from seeing, conversing, or holding any interaction.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and normal speed."
+    },
+    "LJSpeech_LJ008-0236": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: Coiled up on the floor of the scaffold like a serpent, the hangman's rope.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ027-0020": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:happy\ttranscription: The unity in life, then, is not less a fact than is life's great diversity.",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ017-0238": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:low\tspeed:slow\temotion:fearful\ttranscription: Tefer the second mate agreed, but constantly went in fear of his life.",
+        "text_style_target": "The speaker speaks in normal pitch, low volume and slow speed."
+    },
+    "LJSpeech_LJ045-0233": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:normal\tspeed:slow\temotion:angry\ttranscription: He consistently refused to admit involvement in the assassination",
+        "text_style_target": "The speaker speaks in normal pitch, normal volume and slow speed."
+    },
+    "LJSpeech_LJ038-0099": {
+        "labels": "age:Middle-aged\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: From the outset, Oswald denied owning a rifle.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ028-0231": {
+        "labels": "age:Elderly\tgender:male\tpitch:low\tvolume:low\tspeed:fast\temotion:neutral\ttranscription: whereupon they withdrew within their defenses.",
+        "text_style_target": "The speaker speaks in low pitch, low volume and fast speed."
+    },
+    "LJSpeech_LJ044-0239": {
+        "labels": "age:Elderly\tgender:male\tpitch:high\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: and raises serious questions as to whether or not he ever expected to",
+        "text_style_target": "The speaker speaks in high pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ050-0086": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: Under these criteria, whether the case should be referred to the Secret Service depends",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    },
+    "LJSpeech_LJ047-0021": {
+        "labels": "age:Elderly\tgender:male\tpitch:normal\tvolume:high\tspeed:slow\temotion:neutral\ttranscription: information regarding his relations with the U.S. Embassy in Moscow and background",
+        "text_style_target": "The speaker speaks in normal pitch, high volume and slow speed."
+    }
+}

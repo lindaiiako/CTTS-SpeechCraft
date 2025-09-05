@@ -50,7 +50,7 @@ class CustomDataset(torch.utils.data.Dataset):
         self.__preprocess__()  
     
     def __preprocess__(self):
-        hf_ds = datasets.load_from_disk(self.hf_ds_path)
+        hf_ds = datasets.load_from_disk(self.hf_ds_path).select(range(100))
         paths = hf_ds["out_audio_filename"]
         transcripts = hf_ds["tts_text"]
         subset_size = len(paths) // self.num_devices
@@ -113,16 +113,14 @@ class CollateFunc:
         self.pad_to_multiple_of = pad_to_multiple_of
 
     def __call__(self, batch: List):
-        audio_arrays = []
         audiopaths = []
         durations = []
         transcripts = []
         input_features = []
         
         for audio, audiopath, transcript in batch:
-            audio_arrays.append(audio)
             audiopaths.append(audiopath)
-            durations.append(len(audio_arrays) / self.sampling_rate)
+            durations.append(len(audio) / self.sampling_rate)
             transcripts.append(transcript)
 
             input_tensor = self.w2v_processor(audio, sampling_rate=self.sampling_rate).input_values
@@ -137,7 +135,7 @@ class CollateFunc:
             return_tensors="pt",
         )
 
-        return batch, audiopaths, durations, audio_arrays, transcripts
+        return batch, audiopaths, durations, transcripts
 
 def age_predict(batch, model, device):
     r"""Predict age from raw audio signal."""
@@ -165,12 +163,12 @@ def emotion_predict(audiopaths, model):
     emotions = [emotionlabels[emotion_index] for emotion_index in emotion_indexs]
     return emotions
 
-def pitch_energy_calculate(audio_arrays):
+def pitch_energy_calculate(audio_paths):
     r"""Predict pitch and energy from raw audio signal."""
     pitchs = []
     energys = []
-    for audio in audio_arrays:
-        mean_pitch, mean_energy = process_audio(audio, sr=16000)
+    for path in audio_paths:
+        mean_pitch, mean_energy = process_audio(path)
         pitchs.append(mean_pitch)
         energys.append(mean_energy)
     return pitchs, energys
@@ -236,12 +234,12 @@ def inference_on_device(device, i, num_devices, hf_ds_path, scp_path):
     
     with torch.no_grad():
         for s, load_data in enumerate(tqdm(test_dataloader)):
-            audios, audiopaths, durations, audio_arrays, transcripts = to_device(load_data, device)
+            audios, audiopaths, durations, transcripts = to_device(load_data, device)
             audio_features = audios['input_values']
             
             ages = age_predict(audio_features, model=age_model, device=device)
             genders = gender_predict(audios, model=gender_model, device=device)
-            pitchs, energys = pitch_energy_calculate(audio_arrays)
+            pitchs, energys = pitch_energy_calculate(audiopaths)
     
             phonemes = [g2p_model(transcripts) for i in range(len(audiopaths))]
             speeds = [durations[i] / len(phonemes[i] ) for i in range(len(audiopaths))]

@@ -23,12 +23,10 @@ def replace_age_with_text(row):
     age = row['age']
     if age < 14:
         return "Child"
-    elif age < 20:
-        return "Teenager"
-    elif age < 40:
-        return "Young Adult"
-    elif age < 50:
-        return "Middle-aged"
+    elif age < 24:
+        return "Youth"
+    elif age < 65:
+        return "Adult"
     else:
         return "Elderly"
 
@@ -65,7 +63,7 @@ def main(args):
             f"emotion:{row['emotion']}\t"
             f"transcription:{row['transcript']}"
         )
-        text_style_target = f"The speaker speaks in {row['pitch_group']} pitch, {row['energy_group']} volume and {row['speed_group']} speed. The speaker's emotion is {row['emotion']}."
+        text_style_target = f"The speaker speaks in {row['pitch_group']} pitch, {row['energy_group']} volume and {row['speed_group']} speed."
 
         result_dict[key] = {}
         result_dict[key]['labels'] = value
@@ -77,6 +75,6 @@ def main(args):
         
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--input_path', type=str, default = './outputs/labels_LJspeech_0.scp')
+    parser.add_argument('--input_path', type=str, default = './outputs/labels_CTTS_0.scp')
     args = parser.parse_args()
     main(args)
