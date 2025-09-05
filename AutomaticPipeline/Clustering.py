@@ -65,9 +65,11 @@ def main(args):
             f"emotion:{row['emotion']}\t"
             f"transcription:{row['transcript']}"
         )
+        text_style_target = f"The speaker speaks in {row['pitch_group']} pitch, {row['energy_group']} volume and {row['speed_group']} speed. The speaker's emotion is {row['emotion']}."
 
         result_dict[key] = {}
         result_dict[key]['labels'] = value
+        result_dict[key]['text_style_target'] = text_style_target
 
     with open(input_path.replace('.scp', '.json'), 'w', encoding='utf-8') as json_file:
         json.dump(result_dict, json_file, ensure_ascii=False, indent=4)

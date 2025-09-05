@@ -1,18 +1,17 @@
 # coding=utf-8
-import os
 import argparse
 import numpy as np
 import torch
 import librosa
-from typing import List, Optional, Union, Dict
+import datasets
+from typing import List, Optional, Union
 from tqdm import tqdm
-import torchaudio
 from torch.utils.data import DataLoader
 from torch.nn import functional as F
 from transformers import (
     AutoModelForAudioClassification,
     Wav2Vec2Processor,
-    AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
+    #AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 )
 from funasr import AutoModel
 from AgePreTrainModel import AgeGenderModel
@@ -35,33 +34,30 @@ def to_device(tensors, device):
 class CustomDataset(torch.utils.data.Dataset):
     def __init__(
         self,
-        basedir: Optional[str] = None,
+        hf_ds_path: Optional[str] = None,
         sampling_rate: int = 16000,
-        max_audio_len: int = 5,  
+        max_audio_len: int = 30,  
         number: int=0,
-        num_devices: int=4
+        num_devices: int=1
     ):
         self.num_devices = num_devices
         self.number = number
-        self.basedir = basedir
+        self.hf_ds_path = hf_ds_path
         self.sampling_rate = sampling_rate
         self.max_audio_len = max_audio_len
         self.dataset = []
-        self.category = []
-        self.text_tn = []
+        self.transcripts = []
         self.__preprocess__()  
     
-    def __preprocess__(self):  
-        paths = []      
-        for dirname, subdirs, files in os.walk(self.basedir):
-            for filename in files:
-                if filename.startswith('.'):
-                    continue
-                if filename.endswith('.wav'):                    
-                    path = os.path.join(dirname, filename)
-                    paths.append(path)
+    def __preprocess__(self):
+        hf_ds = datasets.load_from_disk(self.hf_ds_path)
+        paths = hf_ds["out_audio_filename"]
+        transcripts = hf_ds["tts_text"]
         subset_size = len(paths) // self.num_devices
         self.dataset = paths[self.number * subset_size: (self.number+1) * subset_size]
+        self.transcripts = transcripts[self.number * subset_size: (self.number+1) * subset_size]
+        assert len(self.dataset) == len(self.transcripts)
+        print(f"Num rows: {len(self.dataset)}")
 
     def __len__(self):
         """
@@ -91,24 +87,15 @@ class CustomDataset(torch.utils.data.Dataset):
         """
         Return the audio and the sampling rate
         """
-        filepath = self.dataset[index]
-        speech_array, sr = librosa.load(filepath)
+        filepath = self.dataset[index].replace("/audio_segments/", "/audio_segments_bef_persona/")
+        speech_array, sr = librosa.load(filepath, sr=self.sampling_rate, mono=True)
         if len(speech_array)==0:
             return None
         speech_array = speech_array[:self.max_audio_len * sr]
-        speech_array = torch.Tensor(speech_array).unsqueeze(0)
 
-        # Transform to mono
-        if speech_array.shape[0] > 1:
-            speech_array = torch.mean(speech_array, dim=0, keepdim=True)
+        transcript = self.transcripts[index]
 
-        if sr != self.sampling_rate:
-            transform = torchaudio.transforms.Resample(sr, self.sampling_rate)
-            speech_array = transform(speech_array)
-        
-        speech_array = speech_array.squeeze().numpy()
-
-        return speech_array, filepath
+        return speech_array, filepath, transcript
 
 class CollateFunc:
     def __init__(
@@ -126,19 +113,21 @@ class CollateFunc:
         self.pad_to_multiple_of = pad_to_multiple_of
 
     def __call__(self, batch: List):
-        audios = []
-        input_features = []
+        audio_arrays = []
         audiopaths = []
         durations = []
-
-        for audio, audiopath in batch:
-            audios.append(audio)
+        transcripts = []
+        input_features = []
+        
+        for audio, audiopath, transcript in batch:
+            audio_arrays.append(audio)
             audiopaths.append(audiopath)
+            durations.append(len(audio_arrays) / self.sampling_rate)
+            transcripts.append(transcript)
 
             input_tensor = self.w2v_processor(audio, sampling_rate=self.sampling_rate).input_values
             input_tensor = np.squeeze(input_tensor)
             input_features.append({"input_values": input_tensor})
-            durations.append(len(audio) / self.sampling_rate)
 
         batch = self.w2v_processor.pad(
             input_features,
@@ -148,7 +137,7 @@ class CollateFunc:
             return_tensors="pt",
         )
 
-        return batch, audiopaths, durations
+        return batch, audiopaths, durations, audio_arrays, transcripts
 
 def age_predict(batch, model, device):
     r"""Predict age from raw audio signal."""
@@ -168,7 +157,6 @@ def gender_predict(batch, model, device):
     genders = [G[pred[i]] for i in range(len(pred))]
     return genders
 
-# def emotion_predict(batch, model, device, feature_extractor):
 def emotion_predict(audiopaths, model): 
     emotionlabels = ['angry', 'disgusted', 'fearful', 'happy', 'neutral', 'other', 'sad', 'surprised', 'unknown']
     results = model.generate(audiopaths, granularity="utterance", extract_embedding=False)
@@ -177,24 +165,23 @@ def emotion_predict(audiopaths, model):
     emotions = [emotionlabels[emotion_index] for emotion_index in emotion_indexs]
     return emotions
 
-def pitch_energy_calculate(input_values):
+def pitch_energy_calculate(audio_arrays):
     r"""Predict pitch and energy from raw audio signal."""
     pitchs = []
     energys = []
-    input_values = input_values.cpu().detach().numpy()
-    for audio in input_values:
+    for audio in audio_arrays:
         mean_pitch, mean_energy = process_audio(audio, sr=16000)
         pitchs.append(mean_pitch)
         energys.append(mean_energy)
     return pitchs, energys
 
-def inference_on_device(device, i, num_devices, basedir, scp_path):
+def inference_on_device(device, i, num_devices, hf_ds_path, scp_path):
 
     sampling_rate = 16000
     batch_size = 4
     gender_model_path = "alefiury/wav2vec2-large-xlsr-53-gender-recognition-librispeech"
     age_model_path = "audeering/wav2vec2-large-robust-24-ft-age-gender"
-    asr_path = "openai/whisper-large-v3"
+    #asr_path = "openai/whisper-large-v3"
     scp_path = scp_path[:-4]+'_'+str(i)+'.scp'
 
     # Gender Predict    
@@ -217,6 +204,7 @@ def inference_on_device(device, i, num_devices, basedir, scp_path):
 
     g2p_model = G2p()
     
+    '''
     # ASR
     asr_processor = AutoProcessor.from_pretrained(asr_path)
     asr_model = AutoModelForSpeechSeq2Seq.from_pretrained(asr_path)
@@ -231,8 +219,8 @@ def inference_on_device(device, i, num_devices, basedir, scp_path):
         torch_dtype=torch_dtype,
         device=device,
     )
-
-    inferset = CustomDataset(basedir, sampling_rate = sampling_rate, number = i, num_devices= num_devices)
+    '''
+    inferset = CustomDataset(hf_ds_path, sampling_rate = sampling_rate, number = i, num_devices= num_devices)
     data_collator = CollateFunc(
         w2v_processor=w2v_processor,
         padding=True,
@@ -248,13 +236,12 @@ def inference_on_device(device, i, num_devices, basedir, scp_path):
     
     with torch.no_grad():
         for s, load_data in enumerate(tqdm(test_dataloader)):
-            audios, audiopaths, durations = to_device(load_data, device)
+            audios, audiopaths, durations, audio_arrays, transcripts = to_device(load_data, device)
             audio_features = audios['input_values']
-            transcripts = [asr_pipe(audio_features.numpy()[i], return_timestamps=False, generate_kwargs={"language": "english"})["text"] for i in range(len(audiopaths))]
             
             ages = age_predict(audio_features, model=age_model, device=device)
             genders = gender_predict(audios, model=gender_model, device=device)
-            pitchs, energys = pitch_energy_calculate(audio_features)
+            pitchs, energys = pitch_energy_calculate(audio_arrays)
     
             phonemes = [g2p_model(transcripts) for i in range(len(audiopaths))]
             speeds = [durations[i] / len(phonemes[i] ) for i in range(len(audiopaths))]
@@ -266,7 +253,7 @@ def inference_on_device(device, i, num_devices, basedir, scp_path):
 
 def main(args):
 
-    basedir = args.basedir
+    hf_ds_path = args.raw_hf_dataset_path
     devices = list(map(int, args.devices.split(',')))
     num_devices = len(devices)
     scp_path = args.scp_path
@@ -275,7 +262,7 @@ def main(args):
     for i in range(num_devices):
         device_num = devices[i]
         device = torch.device(f'cuda:{device_num}')
-        p = torch.multiprocessing.Process(target=inference_on_device, args=(device, i, num_devices, basedir, scp_path))
+        p = torch.multiprocessing.Process(target=inference_on_device, args=(device, i, num_devices, hf_ds_path, scp_path))
         p.start()
         processes.append(p)
     
@@ -287,8 +274,8 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--devices', type=str, default = '0')
-    parser.add_argument('--basedir', type=str, default = '../FastSpeech2/raw_data/AISHELL3/SSB0005')
-    parser.add_argument('--scp_path', type=str, default = './outputs/labels_AISHELL.scp')
+    parser.add_argument('--raw_hf_dataset_path', type=str, default = '/home3/s20245649/PROCESSED_DS/ctts_data_char_ctx')
+    parser.add_argument('--scp_path', type=str, default = 'outputs/labels_CTTS.scp')
 
     args = parser.parse_args()
     
