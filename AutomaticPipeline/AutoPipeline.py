@@ -12,14 +12,10 @@ from torch.nn import functional as F
 from transformers import (
     AutoModelForAudioClassification,
     Wav2Vec2Processor,
-    LlamaTokenizer,
     AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 )
 from funasr import AutoModel
-import sys
-sys.path.append('../SECap') # path to the directory of SECap
 from AgePreTrainModel import AgeGenderModel
-from model2 import MotionAudio
 from PitchEnergy import process_audio
 from g2p_en import G2p
 torch.multiprocessing.set_start_method('spawn', force=True)
@@ -230,8 +226,6 @@ def inference_on_device(device, i, num_devices, basedir, scp_path):
         model=asr_model,
         tokenizer=asr_processor.tokenizer,
         feature_extractor=asr_processor.feature_extractor,
-        max_new_tokens=128,
-        chunk_length_s=30,
         batch_size=batch_size,
         return_timestamps=False,
         torch_dtype=torch_dtype,
